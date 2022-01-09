@@ -1,3 +1,24 @@
+此目录用于PlatformIO单元测试和项目测试。
+
+单元测试是一种软件测试方法
+源代码，集一个或多个MCU程序模块一起关联
+控制数据、使用程序和操作程序，都要经过测试
+确定它们是否适合使用。单元测试能及早发现问题
+在开发周期中。
+
+更多关于平台单元测试的信息:
+——https://docs.platformio.org/page/plus/unit-testing.html
+此目录用于PlatformIO单元测试和项目测试。
+
+单元测试是一种软件测试方法
+源代码，集一个或多个MCU程序模块一起关联
+控制数据、使用程序和操作程序，都要经过测试
+确定它们是否适合使用。单元测试能及早发现问题
+在开发周期中。
+
+更多关于平台单元测试的信息:
+——https://docs.platformio.org/page/plus/unit-testing.html
+
 
 This directory is intended for PlatformIO Unit Testing and project tests.
 

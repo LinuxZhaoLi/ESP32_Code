@@ -3,6 +3,7 @@
 
 /*
  * LEDC Chan to Group/Channel/Timer Mapping
+ LEDC Chan到组/通道/定时器映射
 ** ledc: 0  => Group: 0, Channel: 0, Timer: 0
 ** ledc: 1  => Group: 0, Channel: 1, Timer: 0
 ** ledc: 2  => Group: 0, Channel: 2, Timer: 1
@@ -33,7 +34,7 @@ const int Motor_INB2 = 17;
 // 高速通道(0-7): 80MHz时钟，低速通道(8-15): 1MHz时钟
 // 0-15都可以设置，只要不重复即可，参考上面的列表
 // 如果有定时器的使用，千万要避开!!!
-const int Motor_channel_PWMA = 2;
+const int Motor_channel_PWMA = 2;  // 马达
 const int Motor_channel_PWMB = 3;
 
 // PWM频率，直接设置即可
@@ -45,7 +46,7 @@ int Motor_resolution_PWM = 10;
 
 void Motor_Init(void)
 {
-    pinMode(Motor_INA1, OUTPUT);
+    pinMode(Motor_INA1, OUTPUT);  // 设置输出
     pinMode(Motor_INA2, OUTPUT);
     pinMode(Motor_INB1, OUTPUT);
     pinMode(Motor_INB2, OUTPUT);
